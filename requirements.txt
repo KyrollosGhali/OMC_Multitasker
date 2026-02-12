@@ -200,8 +200,8 @@ typing-inspection==0.4.2
 typing_extensions==4.15.0
 tyro==1.0.6
 tzdata==2025.3
-unsloth==2025.3.3
-unsloth_zoo==2025.3.1
+# unsloth==2025.3.3
+# unsloth_zoo==2025.3.1
 urllib3==2.6.3
 uuid_utils==0.14.0
 uvicorn==0.40.0
