@@ -198,11 +198,11 @@ if uploaded_file:
         # ======================
         # Show Answers
         # ======================
-        st.subheader("✅ Detected Answers")
-        cols = st.columns(4)
-        for idx, ans in enumerate(answers):
-            letter = chr(ord("A") + ans) if ans is not None else "فارغ"
-            cols[idx % 4].metric(f"Q{idx+1}", letter)
+        # st.subheader("✅ Detected Answers")
+        # cols = st.columns(4)
+        # for idx, ans in enumerate(answers):
+        #     letter = chr(ord("A") + ans) if ans is not None else "فارغ"
+        #     cols[idx % 4].metric(f"Q{idx+1}", letter)
 
         # ======================
         # LLM Feedback
