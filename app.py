@@ -188,7 +188,7 @@ if uploaded_file:
             },
             include_image_base64=True,
         )
-        if len(answers) < 3:
+        if len(answers) == 0:
             for page in ocr_resp.pages[0:]:
                 questions_text += page.markdown + "\n\n" 
         else :           
